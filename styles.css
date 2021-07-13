@@ -1,0 +1,59 @@
+
+/* selectors 
+    tag
+    class
+    attribute
+    id
+*/
+
+body {
+    background-color: #eee;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-image: url('https://images.ctfassets.net/hrltx12pl8hq/7yQR5uJhwEkRfjwMFJ7bUK/dc52a0913e8ff8b5c276177890eb0129/offset_comp_772626-opt.jpg?fit=fill&w=800&h=300');
+}
+
+table {
+    background-color: blueviolet;
+}
+
+#Table1 {
+    /* border: 2px solid green; */
+}
+
+#Table1 thead tr th {
+    background-color: bisque;
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    /* border: 2px solid red; */
+}
+
+#Table1 tbody tr td {
+    /* border: 3px solid red; */
+    background-color: aliceblue;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+
+#Table2 {
+    width: 25%;
+    height: 25%;
+    /* background-image: url('https://images.ctfassets.net/hrltx12pl8hq/7yQR5uJhwEkRfjwMFJ7bUK/dc52a0913e8ff8b5c276177890eb0129/offset_comp_772626-opt.jpg?fit=fill&w=800&h=300'); */
+    border: 2px solid yellow;
+}
+
+#Table2 td {
+    /* background-color: azure; */
+}
+
+#Table2 td:first-child {
+    text-align: center;
+    background-color: aquamarine;
+}
+
+#Table2 td:last-child {
+    text-align: center;
+    background-color: cornsilk;
+}
